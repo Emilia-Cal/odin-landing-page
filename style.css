@@ -1,4 +1,63 @@
 body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex: 2 1 auto;
+    background-color: #1F2937;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 auto;
+}
+
+.information-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2 1 auto;
+    background-color: #E5E7EB;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.cta-box {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
 }
